@@ -1,8 +1,4 @@
-/**
- * Copyright (c) 2018-2019 Seeyouweb.  All rights reserved. 广州西柚网络科技有限公司 版权所有.
- * 请勿修改或删除版权声明及文件头部.
- */
-package com.seeyouweb.leetcode_algorithm.solution;
+package com.seeyouweb.leetcode.algorithm.solution;
 
 import org.junit.Test;
 
@@ -16,7 +12,8 @@ public class Solution7 {
 
     @Test
     public void reverse() {
-        int x = 1534236469;    //传入参数
+        //传入参数
+        int x = 1534236469;
         boolean flag = false;
         if(x < 0){
             x = -x;
